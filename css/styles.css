@@ -122,7 +122,8 @@ ul {
     background-color: var(--color-text-accent);
     text-align: center;
     padding: 188px 0px;
-
+    width: 1440px;
+    margin: 0px auto 120px;
 }
 
 .hero-header {
@@ -152,6 +153,8 @@ ul {
     color: inherit;
 }
 
+/* Features */
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -166,6 +169,13 @@ ul {
     overflow: hidden;
 }
 
+.features {
+    margin-bottom: 120px;
+}
+
+.features-list {
+    display: flex;
+}
 
 .section-subtitle {
     font-weight: 500;
