@@ -175,6 +175,21 @@ ul {
 
 .features-list {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: -24px;
+    margin-bottom: -24px;
+
+}
+
+.features-item {
+    flex-basis: calc(((100% - 30px) - 3*24px)/4);
+
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.features-item h3 {
+    margin-bottom: 8px;
 }
 
 .section-subtitle {
