@@ -39,7 +39,7 @@ ul {
     width: 1158px;
     margin: 0px auto;
     padding: 0px 15px;
-    outline: 1px dotted tomato;
+    /* outline: 1px dotted tomato; */
 }
 
 .section-subtitle {
