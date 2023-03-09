@@ -20,9 +20,11 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    letter-spacing: 0.02em;
 }
 
+p {
+    letter-spacing: 0.02em
+}
 
 :root {
     --color-text: #434455;
@@ -182,7 +184,6 @@ ul {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--color-hover);
-    color: inherit;
 }
 
 /* Features */
@@ -214,7 +215,6 @@ ul {
 .features-item {
     flex-basis: calc((100% - 24px * 3) / 4)
 }
-
 
 /* doing */
 .doing-section {
